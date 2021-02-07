@@ -8,6 +8,7 @@
 
 #import "DisplayViewController.h"
 #import "LogAdaptor.h"
+#import "AliveLogger.h"
 
 // 展示数据的接口
 @interface DisplayViewController ()
@@ -52,8 +53,9 @@
 
 
 - (void) fetchTodayLoggerClicked {
-    int minutes = [LogAdaptor sharedInstance] fetchTodayHeartBeatCount
-    
+    //int minutes = [LogAdaptor sharedInstanc;e] fetchTodayHeartBeatCount
+    NSInteger mintues = [[AliveLogger sharedInstance] fetchTodayMinutes];
+    NSLog(@"today consumed minutes is %li",(long)mintues);
 }
 
 

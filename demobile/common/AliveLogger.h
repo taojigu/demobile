@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // 读取今天的消耗的分钟数
-- (int) fetchTodayMinutes;
+- (NSInteger) fetchTodayMinutes;
 
 
 

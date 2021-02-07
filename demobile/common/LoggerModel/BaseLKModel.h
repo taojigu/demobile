@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseLKModel : NSObject
 
++ (LKDBHelper *)sharedLKDBHelper;
+
 @end
 
 NS_ASSUME_NONNULL_END

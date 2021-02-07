@@ -12,7 +12,7 @@
 @implementation BaseLKModel
 
 
-+ (LKDBHelper *)getUsingLKDBHelper {
++ (LKDBHelper *)sharedLKDBHelper {
     
     static LKDBHelper* db;
     static dispatch_once_t onceToken;

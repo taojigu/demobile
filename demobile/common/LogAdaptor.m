@@ -27,7 +27,6 @@
 - (instancetype) init {
     self = [super init];
     if (self) {
-        [self initDB];
     }
     return self;
 }
@@ -39,9 +38,26 @@
     [hbm saveToDB];
 }
 
-- (void)initDB {
+// 获取两个时间时间段内心跳次数
+- (NSInteger)fetchHeartBeatCounts:(NSDate *)startDate endDate:(NSDate *)endDate {
     
+    NSString *startDateString = [self dateString:startDate];
+    NSString *endDateString = [self dateString:endDate];
+    
+    NSString *whereSttring = [NSString stringWithFormat:@"date >= \'%@\' and date <= \'%@\'",startDateString,endDateString];
+    NSInteger rowCount = [HeartBeatModel rowCountWithWhere:whereSttring];
+    return rowCount;
 }
+
+- (NSString *)dateString:(NSDate *)date {
+     //@"date >= '2013-04-01 00:00:00'"
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSString *dateString = [dateFormatter stringFromDate:date];
+    return dateString;
+}
+
+
 
 #pragma mark -- init
 

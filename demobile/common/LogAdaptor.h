@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)logHeartBeat:(NSDate*) date ;
 
 // 获取两个时间时间段内心跳次数
-- (void)fetchHeartBeatCounts:(NSDate *)startDate endDate:(NSDate *)endDate;
+- (NSInteger)fetchHeartBeatCounts:(NSDate *)startDate endDate:(NSDate *)endDate;
 
 
 

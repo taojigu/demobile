@@ -71,11 +71,33 @@ typedef NS_ENUM (NSUInteger, LoggerState) {
     //调用数据库adaptor,保存
 }
 
-- (int) fetchTodayMinutes {
+- (NSInteger) fetchTodayMinutes {
+    NSDate *date = [NSDate date];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents * components = [calendar components:NSCalendarUnitYear |  NSCalendarUnitMonth  | NSCalendarUnitDay fromDate:date];
 
-    [[LogAdaptor sharedInstance] fetchToadyHeartBeatCount:[NSDate date]];
-    return 0;
+    NSDate *startDate = [self dateFromYear:components.year month:components.month day:components.day];
+    NSInteger count = [[LogAdaptor sharedInstance] fetchHeartBeatCounts:startDate endDate:date];
+    
+    NSInteger minute = count / 10;
+    
+    return minute;
 }
+
+- (NSDate *)dateFromYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day {
+    NSDateComponents *dcpt = [[NSDateComponents alloc] init];
+    dcpt.year = year;
+    dcpt.month = month;
+    dcpt.day = day;
+    dcpt.hour = 0;
+    dcpt.minute = 0;
+    dcpt.second = 0;
+    
+    NSCalendar * calendar = [NSCalendar currentCalendar];
+    NSDate *date = [calendar dateFromComponents:dcpt];
+    return date;
+}
+
 
 
 
