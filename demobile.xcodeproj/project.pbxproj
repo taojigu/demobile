@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239616818FCD15E84D6C48D5 /* Pods_demobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5494276DB9D9C0327A7E671C /* Pods_demobile.framework */; };
+		58CE1405C0C85311E2D673C3 /* Pods_demobile_demobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2236E2DB386DECB664D14BB5 /* Pods_demobile_demobileUITests.framework */; };
+		AA4B4E146670EAB3CEA1BCC0 /* Pods_demobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55895003DC7FB4E8C306932 /* Pods_demobileTests.framework */; };
+		BFCDC1C525C3F3C200B1A144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1C425C3F3C200B1A144 /* AppDelegate.m */; };
+		BFCDC1CB25C3F3C200B1A144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1CA25C3F3C200B1A144 /* ViewController.m */; };
+		BFCDC1CE25C3F3C200B1A144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDC1CC25C3F3C200B1A144 /* Main.storyboard */; };
+		BFCDC1D025C3F3C600B1A144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDC1CF25C3F3C600B1A144 /* Assets.xcassets */; };
+		BFCDC1D325C3F3C600B1A144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCDC1D125C3F3C600B1A144 /* LaunchScreen.storyboard */; };
+		BFCDC1D625C3F3C600B1A144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1D525C3F3C600B1A144 /* main.m */; };
+		BFCDC1E025C3F3C600B1A144 /* demobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1DF25C3F3C600B1A144 /* demobileTests.m */; };
+		BFCDC1EB25C3F3C600B1A144 /* demobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1EA25C3F3C600B1A144 /* demobileUITests.m */; };
+		BFCDC1FA25C4139300B1A144 /* BehaviorSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1F925C4139300B1A144 /* BehaviorSpy.m */; };
+		BFCDC1FF25C415B000B1A144 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC1FE25C415B000B1A144 /* HomeViewController.m */; };
+		BFCDC20325C7E13500B1A144 /* AliveKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC20225C7E13400B1A144 /* AliveKeeper.m */; };
+		BFCDC20625C7E6FA00B1A144 /* AliveLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC20525C7E6FA00B1A144 /* AliveLogger.m */; };
+		BFCDC20925C80E6000B1A144 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC20825C80E6000B1A144 /* DisplayViewController.m */; };
+		BFCDC20B25C9061800B1A144 /* pomodoSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BFCDC20A25C9061700B1A144 /* pomodoSound.m4a */; };
+		BFCDC20F25C9575600B1A144 /* LogAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC20E25C9575500B1A144 /* LogAdaptor.m */; };
+		BFCDC21225C95C7B00B1A144 /* SummaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC21125C95C7B00B1A144 /* SummaryModel.m */; };
+		BFCDC21525CCFDE100B1A144 /* HeartBeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC21425CCFDE000B1A144 /* HeartBeatModel.m */; };
+		BFCDC21825CD407B00B1A144 /* BaseLKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDC21725CD407A00B1A144 /* BaseLKModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCDC1DC25C3F3C600B1A144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDC1B825C3F3C200B1A144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDC1BF25C3F3C200B1A144;
+			remoteInfo = demobile;
+		};
+		BFCDC1E725C3F3C600B1A144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDC1B825C3F3C200B1A144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDC1BF25C3F3C200B1A144;
+			remoteInfo = demobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E1502F0B59272E183522E6 /* Pods-demobile-demobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobile-demobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-demobile-demobileUITests/Pods-demobile-demobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2236E2DB386DECB664D14BB5 /* Pods_demobile_demobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demobile_demobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		341F55749401C3BF4FBBF7A2 /* Pods-demobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobile.debug.xcconfig"; path = "Target Support Files/Pods-demobile/Pods-demobile.debug.xcconfig"; sourceTree = "<group>"; };
+		5494276DB9D9C0327A7E671C /* Pods_demobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5789BAAEB23801A4DDE3A4DB /* Pods-demobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobile.release.xcconfig"; path = "Target Support Files/Pods-demobile/Pods-demobile.release.xcconfig"; sourceTree = "<group>"; };
+		8943E7C30DBB4537D4D7215F /* Pods-demobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobileTests.debug.xcconfig"; path = "Target Support Files/Pods-demobileTests/Pods-demobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A1C4E9DDB4D9580B33963C /* Pods-demobile-demobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobile-demobileUITests.release.xcconfig"; path = "Target Support Files/Pods-demobile-demobileUITests/Pods-demobile-demobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFCDC1C025C3F3C200B1A144 /* demobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDC1C325C3F3C200B1A144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFCDC1C425C3F3C200B1A144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFCDC1C925C3F3C200B1A144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFCDC1CA25C3F3C200B1A144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFCDC1CD25C3F3C200B1A144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCDC1CF25C3F3C600B1A144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDC1D225C3F3C600B1A144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCDC1D425C3F3C600B1A144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDC1D525C3F3C600B1A144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFCDC1DB25C3F3C600B1A144 /* demobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDC1DF25C3F3C600B1A144 /* demobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demobileTests.m; sourceTree = "<group>"; };
+		BFCDC1E125C3F3C600B1A144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDC1E625C3F3C600B1A144 /* demobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDC1EA25C3F3C600B1A144 /* demobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demobileUITests.m; sourceTree = "<group>"; };
+		BFCDC1EC25C3F3C600B1A144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCDC1F825C4139300B1A144 /* BehaviorSpy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BehaviorSpy.h; sourceTree = "<group>"; };
+		BFCDC1F925C4139300B1A144 /* BehaviorSpy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BehaviorSpy.m; sourceTree = "<group>"; };
+		BFCDC1FD25C415B000B1A144 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BFCDC1FE25C415B000B1A144 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BFCDC20125C7E13400B1A144 /* AliveKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliveKeeper.h; sourceTree = "<group>"; };
+		BFCDC20225C7E13400B1A144 /* AliveKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliveKeeper.m; sourceTree = "<group>"; };
+		BFCDC20425C7E6FA00B1A144 /* AliveLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliveLogger.h; sourceTree = "<group>"; };
+		BFCDC20525C7E6FA00B1A144 /* AliveLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliveLogger.m; sourceTree = "<group>"; };
+		BFCDC20725C80E6000B1A144 /* DisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		BFCDC20825C80E6000B1A144 /* DisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		BFCDC20A25C9061700B1A144 /* pomodoSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pomodoSound.m4a; sourceTree = "<group>"; };
+		BFCDC20D25C9575500B1A144 /* LogAdaptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogAdaptor.h; sourceTree = "<group>"; };
+		BFCDC20E25C9575500B1A144 /* LogAdaptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogAdaptor.m; sourceTree = "<group>"; };
+		BFCDC21025C95C7B00B1A144 /* SummaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummaryModel.h; sourceTree = "<group>"; };
+		BFCDC21125C95C7B00B1A144 /* SummaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummaryModel.m; sourceTree = "<group>"; };
+		BFCDC21325CCFDE000B1A144 /* HeartBeatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartBeatModel.h; sourceTree = "<group>"; };
+		BFCDC21425CCFDE000B1A144 /* HeartBeatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartBeatModel.m; sourceTree = "<group>"; };
+		BFCDC21625CD407A00B1A144 /* BaseLKModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLKModel.h; sourceTree = "<group>"; };
+		BFCDC21725CD407A00B1A144 /* BaseLKModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLKModel.m; sourceTree = "<group>"; };
+		C55895003DC7FB4E8C306932 /* Pods_demobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9F8D36FCBE4557E3D6F736 /* Pods-demobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demobileTests.release.xcconfig"; path = "Target Support Files/Pods-demobileTests/Pods-demobileTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCDC1BD25C3F3C200B1A144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239616818FCD15E84D6C48D5 /* Pods_demobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1D825C3F3C600B1A144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4B4E146670EAB3CEA1BCC0 /* Pods_demobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1E325C3F3C600B1A144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CE1405C0C85311E2D673C3 /* Pods_demobile_demobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B6B367989D3D39DDC7AE5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				341F55749401C3BF4FBBF7A2 /* Pods-demobile.debug.xcconfig */,
+				5789BAAEB23801A4DDE3A4DB /* Pods-demobile.release.xcconfig */,
+				03E1502F0B59272E183522E6 /* Pods-demobile-demobileUITests.debug.xcconfig */,
+				B5A1C4E9DDB4D9580B33963C /* Pods-demobile-demobileUITests.release.xcconfig */,
+				8943E7C30DBB4537D4D7215F /* Pods-demobileTests.debug.xcconfig */,
+				CB9F8D36FCBE4557E3D6F736 /* Pods-demobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		886EDAE144CCEA9A2D80449B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5494276DB9D9C0327A7E671C /* Pods_demobile.framework */,
+				2236E2DB386DECB664D14BB5 /* Pods_demobile_demobileUITests.framework */,
+				C55895003DC7FB4E8C306932 /* Pods_demobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCDC1B725C3F3C200B1A144 = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1C225C3F3C200B1A144 /* demobile */,
+				BFCDC1DE25C3F3C600B1A144 /* demobileTests */,
+				BFCDC1E925C3F3C600B1A144 /* demobileUITests */,
+				BFCDC1C125C3F3C200B1A144 /* Products */,
+				57B6B367989D3D39DDC7AE5D /* Pods */,
+				886EDAE144CCEA9A2D80449B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDC1C125C3F3C200B1A144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1C025C3F3C200B1A144 /* demobile.app */,
+				BFCDC1DB25C3F3C600B1A144 /* demobileTests.xctest */,
+				BFCDC1E625C3F3C600B1A144 /* demobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDC1C225C3F3C200B1A144 /* demobile */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC20A25C9061700B1A144 /* pomodoSound.m4a */,
+				BFCDC20025C7E10F00B1A144 /* common */,
+				BFCDC1FC25C4158000B1A144 /* page */,
+				BFCDC1FB25C4139B00B1A144 /* lib */,
+				BFCDC1C325C3F3C200B1A144 /* AppDelegate.h */,
+				BFCDC1C425C3F3C200B1A144 /* AppDelegate.m */,
+				BFCDC1C925C3F3C200B1A144 /* ViewController.h */,
+				BFCDC1CA25C3F3C200B1A144 /* ViewController.m */,
+				BFCDC1CC25C3F3C200B1A144 /* Main.storyboard */,
+				BFCDC1CF25C3F3C600B1A144 /* Assets.xcassets */,
+				BFCDC1D125C3F3C600B1A144 /* LaunchScreen.storyboard */,
+				BFCDC1D425C3F3C600B1A144 /* Info.plist */,
+				BFCDC1D525C3F3C600B1A144 /* main.m */,
+			);
+			path = demobile;
+			sourceTree = "<group>";
+		};
+		BFCDC1DE25C3F3C600B1A144 /* demobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1DF25C3F3C600B1A144 /* demobileTests.m */,
+				BFCDC1E125C3F3C600B1A144 /* Info.plist */,
+			);
+			path = demobileTests;
+			sourceTree = "<group>";
+		};
+		BFCDC1E925C3F3C600B1A144 /* demobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1EA25C3F3C600B1A144 /* demobileUITests.m */,
+				BFCDC1EC25C3F3C600B1A144 /* Info.plist */,
+			);
+			path = demobileUITests;
+			sourceTree = "<group>";
+		};
+		BFCDC1FB25C4139B00B1A144 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1F825C4139300B1A144 /* BehaviorSpy.h */,
+				BFCDC1F925C4139300B1A144 /* BehaviorSpy.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BFCDC1FC25C4158000B1A144 /* page */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC1FD25C415B000B1A144 /* HomeViewController.h */,
+				BFCDC1FE25C415B000B1A144 /* HomeViewController.m */,
+				BFCDC20725C80E6000B1A144 /* DisplayViewController.h */,
+				BFCDC20825C80E6000B1A144 /* DisplayViewController.m */,
+			);
+			path = page;
+			sourceTree = "<group>";
+		};
+		BFCDC20025C7E10F00B1A144 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC20C25C90E5700B1A144 /* LoggerModel */,
+				BFCDC20125C7E13400B1A144 /* AliveKeeper.h */,
+				BFCDC20225C7E13400B1A144 /* AliveKeeper.m */,
+				BFCDC20425C7E6FA00B1A144 /* AliveLogger.h */,
+				BFCDC20525C7E6FA00B1A144 /* AliveLogger.m */,
+				BFCDC20D25C9575500B1A144 /* LogAdaptor.h */,
+				BFCDC20E25C9575500B1A144 /* LogAdaptor.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		BFCDC20C25C90E5700B1A144 /* LoggerModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDC21025C95C7B00B1A144 /* SummaryModel.h */,
+				BFCDC21125C95C7B00B1A144 /* SummaryModel.m */,
+				BFCDC21325CCFDE000B1A144 /* HeartBeatModel.h */,
+				BFCDC21425CCFDE000B1A144 /* HeartBeatModel.m */,
+				BFCDC21625CD407A00B1A144 /* BaseLKModel.h */,
+				BFCDC21725CD407A00B1A144 /* BaseLKModel.m */,
+			);
+			path = LoggerModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCDC1BF25C3F3C200B1A144 /* demobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDC1EF25C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobile" */;
+			buildPhases = (
+				AD18B57D35CBCB5F98D96701 /* [CP] Check Pods Manifest.lock */,
+				BFCDC1BC25C3F3C200B1A144 /* Sources */,
+				BFCDC1BD25C3F3C200B1A144 /* Frameworks */,
+				BFCDC1BE25C3F3C200B1A144 /* Resources */,
+				16585A18F14CFBC3D77EF66E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demobile;
+			productName = demobile;
+			productReference = BFCDC1C025C3F3C200B1A144 /* demobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCDC1DA25C3F3C600B1A144 /* demobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDC1F225C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobileTests" */;
+			buildPhases = (
+				609C3C1658DE4E42BE0C7028 /* [CP] Check Pods Manifest.lock */,
+				BFCDC1D725C3F3C600B1A144 /* Sources */,
+				BFCDC1D825C3F3C600B1A144 /* Frameworks */,
+				BFCDC1D925C3F3C600B1A144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDC1DD25C3F3C600B1A144 /* PBXTargetDependency */,
+			);
+			name = demobileTests;
+			productName = demobileTests;
+			productReference = BFCDC1DB25C3F3C600B1A144 /* demobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCDC1E525C3F3C600B1A144 /* demobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDC1F525C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobileUITests" */;
+			buildPhases = (
+				8ECFDFD6CD712C844DEFB4F0 /* [CP] Check Pods Manifest.lock */,
+				BFCDC1E225C3F3C600B1A144 /* Sources */,
+				BFCDC1E325C3F3C600B1A144 /* Frameworks */,
+				BFCDC1E425C3F3C600B1A144 /* Resources */,
+				77D95088082D210EB9830686 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDC1E825C3F3C600B1A144 /* PBXTargetDependency */,
+			);
+			name = demobileUITests;
+			productName = demobileUITests;
+			productReference = BFCDC1E625C3F3C600B1A144 /* demobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDC1B825C3F3C200B1A144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = GuJitao;
+				TargetAttributes = {
+					BFCDC1BF25C3F3C200B1A144 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					BFCDC1DA25C3F3C600B1A144 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BFCDC1BF25C3F3C200B1A144;
+					};
+					BFCDC1E525C3F3C600B1A144 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BFCDC1BF25C3F3C200B1A144;
+					};
+				};
+			};
+			buildConfigurationList = BFCDC1BB25C3F3C200B1A144 /* Build configuration list for PBXProject "demobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCDC1B725C3F3C200B1A144;
+			productRefGroup = BFCDC1C125C3F3C200B1A144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDC1BF25C3F3C200B1A144 /* demobile */,
+				BFCDC1DA25C3F3C600B1A144 /* demobileTests */,
+				BFCDC1E525C3F3C600B1A144 /* demobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCDC1BE25C3F3C200B1A144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDC1D325C3F3C600B1A144 /* LaunchScreen.storyboard in Resources */,
+				BFCDC1D025C3F3C600B1A144 /* Assets.xcassets in Resources */,
+				BFCDC20B25C9061800B1A144 /* pomodoSound.m4a in Resources */,
+				BFCDC1CE25C3F3C200B1A144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1D925C3F3C600B1A144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1E425C3F3C600B1A144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16585A18F14CFBC3D77EF66E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demobile/Pods-demobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demobile/Pods-demobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demobile/Pods-demobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609C3C1658DE4E42BE0C7028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D95088082D210EB9830686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demobile-demobileUITests/Pods-demobile-demobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demobile-demobileUITests/Pods-demobile-demobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demobile-demobileUITests/Pods-demobile-demobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECFDFD6CD712C844DEFB4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demobile-demobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD18B57D35CBCB5F98D96701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCDC1BC25C3F3C200B1A144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDC20F25C9575600B1A144 /* LogAdaptor.m in Sources */,
+				BFCDC1CB25C3F3C200B1A144 /* ViewController.m in Sources */,
+				BFCDC20625C7E6FA00B1A144 /* AliveLogger.m in Sources */,
+				BFCDC21825CD407B00B1A144 /* BaseLKModel.m in Sources */,
+				BFCDC1C525C3F3C200B1A144 /* AppDelegate.m in Sources */,
+				BFCDC20325C7E13500B1A144 /* AliveKeeper.m in Sources */,
+				BFCDC20925C80E6000B1A144 /* DisplayViewController.m in Sources */,
+				BFCDC1FA25C4139300B1A144 /* BehaviorSpy.m in Sources */,
+				BFCDC1D625C3F3C600B1A144 /* main.m in Sources */,
+				BFCDC21525CCFDE100B1A144 /* HeartBeatModel.m in Sources */,
+				BFCDC1FF25C415B000B1A144 /* HomeViewController.m in Sources */,
+				BFCDC21225C95C7B00B1A144 /* SummaryModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1D725C3F3C600B1A144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDC1E025C3F3C600B1A144 /* demobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDC1E225C3F3C600B1A144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDC1EB25C3F3C600B1A144 /* demobileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCDC1DD25C3F3C600B1A144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDC1BF25C3F3C200B1A144 /* demobile */;
+			targetProxy = BFCDC1DC25C3F3C600B1A144 /* PBXContainerItemProxy */;
+		};
+		BFCDC1E825C3F3C600B1A144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDC1BF25C3F3C200B1A144 /* demobile */;
+			targetProxy = BFCDC1E725C3F3C600B1A144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFCDC1CC25C3F3C200B1A144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDC1CD25C3F3C200B1A144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCDC1D125C3F3C600B1A144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCDC1D225C3F3C600B1A144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCDC1ED25C3F3C600B1A144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFCDC1EE25C3F3C600B1A144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDC1F025C3F3C600B1A144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341F55749401C3BF4FBBF7A2 /* Pods-demobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCDC1F125C3F3C600B1A144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5789BAAEB23801A4DDE3A4DB /* Pods-demobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCDC1F325C3F3C600B1A144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8943E7C30DBB4537D4D7215F /* Pods-demobileTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demobile.app/demobile";
+			};
+			name = Debug;
+		};
+		BFCDC1F425C3F3C600B1A144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9F8D36FCBE4557E3D6F736 /* Pods-demobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demobile.app/demobile";
+			};
+			name = Release;
+		};
+		BFCDC1F625C3F3C600B1A144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E1502F0B59272E183522E6 /* Pods-demobile-demobileUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demobile;
+			};
+			name = Debug;
+		};
+		BFCDC1F725C3F3C600B1A144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A1C4E9DDB4D9580B33963C /* Pods-demobile-demobileUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = demobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujitao.demobile.demobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = demobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCDC1BB25C3F3C200B1A144 /* Build configuration list for PBXProject "demobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDC1ED25C3F3C600B1A144 /* Debug */,
+				BFCDC1EE25C3F3C600B1A144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDC1EF25C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDC1F025C3F3C600B1A144 /* Debug */,
+				BFCDC1F125C3F3C600B1A144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDC1F225C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDC1F325C3F3C600B1A144 /* Debug */,
+				BFCDC1F425C3F3C600B1A144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDC1F525C3F3C600B1A144 /* Build configuration list for PBXNativeTarget "demobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDC1F625C3F3C600B1A144 /* Debug */,
+				BFCDC1F725C3F3C600B1A144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCDC1B825C3F3C200B1A144 /* Project object */;
+}
